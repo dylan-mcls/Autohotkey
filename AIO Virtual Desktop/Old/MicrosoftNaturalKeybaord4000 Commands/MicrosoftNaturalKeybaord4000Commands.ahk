@@ -60,33 +60,33 @@ MsNatural4000_NumpadEqual:
 
 ; numpad "("
 MsNatural4000_NumpadLeftBracket:
-    Send {(}
+    Send, #^{Left}
     return
 
 ; numpad ")"
 MsNatural4000_NumpadRightBracket:
-    Send {)}
+    Send, #^{Right}
     return
 ; ======
 
 ; === Use favorites buttons ===
 MsNatural4000_Favorites1:
-    Send, #^{Left}
-    return
+	Send, #^{Left}
+	return
 
 MsNatural4000_Favorites2:
-    Send, #^{Right}
+    Send, #^2
     return
 
 MsNatural4000_Favorites3:
-    MsgBox Unassigned
+    Send, #^3
     return
 
 MsNatural4000_Favorites4:
-    MsgBox Unassigned
+    Send, #^4
     return
 
 MsNatural4000_Favorites5:
-    MsgBox Unassigned
+    Send, #^5
     return
 ; ======
