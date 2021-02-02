@@ -1,0 +1,112 @@
+In order to correctly customize it for yourself you will
+need to edit some ini files within these folders.
+
+If you feel unsure of what you are doing, make a copy of
+all the files as a backup, or just redownload.
+
+To edit a file, right click on the file and click edit, 
+it should open in notepad or a similar program.
+
+This short guide will assume you have used rainmeter before.
+
+Should you have any questions feel free to ask me on deviantart
+http://ianmelbourne93.deviantart.com/
+
+
+===================================================================
+		      ****PLEASE NOTE****
+- Feel free to edit any of the code in this suite for personal use
+- Please credit me and tell me if you are going to distribute my code
+	I don't mind, I just would like to see what you do with it.
+- This skin was optimized for a 1366 x 768 laptop screen, other sizes
+	may have some slight sizing issues.
+- This skin is not fully finished
+- This is my first rainmeter project, feedback is appreciated.
+===================================================================
+
+
+
+
+Index
+----------------------------- General
+----------------------------- Gmail
+----------------------------- Weather
+----------------------------- Stats Page
+----------------------------- Items Page
+----------------------------- Data Page
+----------------------------- Dial
+
+
+###########################  Gmail  #############################
+Most skins can change colours, to reflect the different pipboy options.
+Change the colour codes within the skin.
+default is green.
+[Variables]
+;Color codes<-------
+;blue=46,206,254
+;amber=218,162,59
+;green=37, 255, 126
+
+###########################  Gmail  #############################
+For the gmail skin, the username and password must be set.
+To do this, edit the skin and find the variables section at the top.
+Two variables should be empty, Username and Password.
+
+Username is simply your Gmail address without the @gmail.com part.
+for example:   IanMelbourne93@gmail.com
+will become:   IanMelbourne93
+
+Password is just your password.
+
+Once these variables are set, save the skin and refresh it.
+
+
+##########################  Weather  ############################
+For the weather skins, you will need to provide a weather.com code
+for your location.
+To find this, go onto www.weather.com and search your location.
+If your location is not there, find the closest area.
+
+Your URL will now look similar to this:
+http://www.weather.com/weather/today/Dandenong+ASXX0031:1:AS
+My closest location is Dandenong Australia.
+My code will be ASXX0031
+
+This code will need to go into the "Location" variable.
+
+To set the units to metric, change the "Metric" variable to m
+For non-metric, set it to f
+
+This will need to be done for each skin, current, tomorrow and dayafter.
+
+
+#########################  Stats Page  ##########################
+5 links will be present at the bottom of the screen.
+To change the location and the text, edit the skin and change
+the top variables.
+App1path will be the address of the first link.
+eg C:\Program Files (x86)\Bethesda Softworks\Fallout New Vegas\FalloutNVLauncher.exe
+
+App1text will be the text visible on the screen for the first link.
+eg Fallout
+
+#########################  Items Page  ##########################
+There are  lot of links on this page.
+The bottom links are exactly the same method as used in the Stats page.
+The side links however are slightly different.
+Each side link has 3 variables assosiated with it now.
+Each has a Link, Text and Picture variable.
+to find a picture you will need to search through the files in the pipboy folder.
+
+
+#########################  Data Page  ###########################
+Unfinished. At the moment it is identicle to the Items page.
+
+
+###########################  Dial  ##############################
+Two seperate dials are available, RAM and CPU measurements.
+They will give you a percentage of current use.
+
+For use with the pipboy wallpaper, use the needle only
+for the entire dial, those options are also available.
+

@@ -69,22 +69,22 @@ MsNatural4000_NumpadRightBracket:
 
 ; === Use favorites buttons ===
 MsNatural4000_Favorites1:
-	Send, #^{Left}
+	SwitchToDesktop(1)
 	return
 
 MsNatural4000_Favorites2:
-    Send, #^2
+    SwitchToDesktop(2)
     return
 
 MsNatural4000_Favorites3:
-    Send, #^3
+    SwitchToDesktop(3)
     return
 
 MsNatural4000_Favorites4:
-    Send, #^4
+    SwitchToDesktop(4)
     return
 
 MsNatural4000_Favorites5:
-    Send, #^5
+    SwitchToDesktop(5)
     return
 ; ======
